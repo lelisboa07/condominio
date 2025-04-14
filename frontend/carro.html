@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Veículo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div>
+            <img class="logo" src="./assets/Logo.png" alt="">
+        </div>
+    </header>
+
+    <main class="main-index">
+        <form class="formCar">
+            <h1>Cadastrar Veículo:</h1>
+            <div class="form-input">
+                <label for="placa">Placa:</label>
+                <input type="text" id="placa" required>
+            </div>
+            <div class="form-input">
+                <label for="modelo">Modelo:</label>
+                <input type="text" id="modelo" required>
+            </div>
+            <div class="form-input">
+                <label for="cor">Cor do Carro:</label>
+                <input type="text" id="cor" required>
+            </div>
+            <div class="form-input">
+                <label for="vaga">Número da Vaga:</label>
+                <input type="text" id="vaga" required>
+            </div>
+            <div class="form-input">
+                <label for="morador_id">Id do Morador:</label>
+                <input type="text" id="morador_id" required>
+            </div>
+            
+            <div class="div-button-register">
+                <button class="button-form" type="submit">Cadastrar</button>
+            </div>
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

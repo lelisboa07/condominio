@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listagem de Moradores e Veículos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div>
+            <img class="logo" src="./assets/Logo.png" alt="">
+        </div>
+    </header>
+
+    <main class="main-index main-listagem">
+        <a class="link-register" href="index.html">Cadastrar novo morador</a>
+        <table class="table-listagem">
+            <thead>
+                <tr>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Bloco</th>
+                    <th scope="col">Apartamento</th>
+                    <th scope="col">Telefone</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Id</th>
+                    <th scope="col">Ações</th>
+                </tr>
+            </thead>
+            <tbody class="morador-tbody">
+            </tbody>
+        </table>
+
+        <a class="link-register" href="carro.html">Cadastrar novo veículo</a>
+        <table class="table-listagem">
+            <thead>
+                <tr>
+                    <th scope="col">Placa</th>
+                    <th scope="col">Modelo</th>
+                    <th scope="col">Cor</th>
+                    <th scope="col">Vaga</th>
+                    <th scope="col">Id do Morador</th>
+                    <th scope="col">Ações</th>
+                </tr>
+            </thead>
+            <tbody class="veiculo-tbody">
+            </tbody>
+        </table>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

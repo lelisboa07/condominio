@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./assets/fundo.png);
+  background-size: 100%;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+}
+
+.logo {
+  width: 20vw;
+}
+
+.main-index {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+
+.main-index .form {
+  background-color: #fff;
+  padding: 2rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 1.5px solid black;
+  border-radius: 8px;
+  width: 35vw;
+  height: auto;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input input {
+  width: 20vw;
+  padding: 8px;
+  margin: 8px 0;
+  border-radius: 4px;
+  border: 0.5px solid black;
+}
+
+.form-input select {
+  width: 20vw;
+  border: 0.5px solid black;
+  padding: 8px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.button-form {
+  width: 20vw;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 4px;
+  border: none;
+  background-color: #6e92b4;
+  cursor: pointer;
+}
+
+.main-index button:hover {
+  background-color: #8badcc;
+}
+
+.formCar {
+  background-color: #fff;
+  padding: 2rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 1.5px solid black;
+  border-radius: 8px;
+  width: 35vw;
+  height: auto;
+}
+
+
+
+.main-listagem {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  height: auto;
+}
+
+.table-listagem{
+  margin: 20px;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+  background-color: #fff;
+}
+
+.link-register {
+  background-color: #6e92b4;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 25px;
+}
+
+.btn-delete-morador {
+  padding: 10px;
+  margin: 10px;
+  width: 8vw;
+  background-color: #f1b7a9;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn-edit-morador {
+  padding: 10px;
+  margin: 10px;
+  width: 8vw;
+  background-color: #6e92b4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn-add-veiculo {
+  padding: 10px;
+  margin: 10px;
+  width: 8vw;
+  background-color: #6e92b4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn-delete-veiculo {
+  padding: 10px;
+  margin: 10px;
+  width: 10vw;
+  background-color: #f1b7a9;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn-edit-veiculo {
+  padding: 10px;
+  margin: 10px;
+  width: 10vw;
+  background-color: #6e92b4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+
+@media (max-width: 800px) {
+  .form{
+      padding: 20px;
+  }
+  .form-div{
+      width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .formCar{
+      padding: 20px;
+  }   
+}
+
+@media (max-width: 850px) {
+  .table-listagem{
+      font-size: 12px;
+  }
+
+  .table-listagem th,
+  .table-listagem td {
+      padding: 2px;
+  }
+}
+
+@media (max-width: 450px) {
+  .table-listagem{
+      font-size: 12px;
+  }
+
+  .table-listagem th,
+  .table-listagem td {
+      padding: 2px;
+  }
+}
